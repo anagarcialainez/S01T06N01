@@ -1,14 +1,10 @@
 package s01n01ex1;
 
-import java.net.SocketOption;
-
 public class MainNoGenericMethods {
     public static void main(String[] args) {
-        NoGenericMethods<Integer> obj1 = new NoGenericMethods<>(1,2,3);
-        NoGenericMethods<String> obj2 = new NoGenericMethods<>("A","B","C");
+        NoGenericMethods obj1 = new NoGenericMethods("Ana","Bea","Noa");
 
-        System.out.println("Objeto 1 -primero:" + obj1.getPrimero() );
-        System.out.println("Objeto 2 -segundo: " + obj2.getSegunto());
+        System.out.println("Objeto 1 : " + obj1.getDato1() + "," + obj1.getDato2() + "," + obj1.getDato3() );
 
     }
 }

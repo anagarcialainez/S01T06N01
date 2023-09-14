@@ -1,37 +1,37 @@
 package s01n01ex1;
 
-public class NoGenericMethods <T>{
-    private T primero;
-    private T segunto;
-    private T tercero;
+public class NoGenericMethods {
+    private String dato1;
+    private String dato2;
+    private String dato3;
 
-    public NoGenericMethods(T primero, T segunto, T tercero) {
-        this.primero = primero;
-        this.segunto = segunto;
-        this.tercero = tercero;
+    public NoGenericMethods(String dato1, String dato2, String dato3) {
+        this.dato1 = dato1;
+        this.dato2 = dato2;
+        this.dato3 = dato3;
     }
 
-    public T getPrimero() {
-        return primero;
+    public String getDato1() {
+        return dato1;
     }
 
-    public void setPrimero(T primero) {
-        this.primero = primero;
+    public void setDato1(String dato1) {
+        this.dato1 = dato1;
     }
 
-    public T getSegunto() {
-        return segunto;
+    public String getDato2() {
+        return dato2;
     }
 
-    public void setSegunto(T segunto) {
-        this.segunto = segunto;
+    public void setDato2(String dato2) {
+        this.dato2 = dato2;
     }
 
-    public T getTercero() {
-        return tercero;
+    public String getDato3() {
+        return dato3;
     }
 
-    public void setTercero(T tercero) {
-        this.tercero = tercero;
+    public void setDato3(String dato3) {
+        this.dato3 = dato3;
     }
 }
